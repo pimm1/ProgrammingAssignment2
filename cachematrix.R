@@ -2,7 +2,8 @@
 ## functions do 
  
 ## Write a short comment describing this function 
- 
+## Make cache creates a vector needed to solve 
+## the inverse of a input matrix 
  
  makeCacheMatrix <- function(x = matrix()) { 
 #		print(x)
@@ -29,7 +30,8 @@
  
  
 ## Write a short comment describing this function 
- 
+## this functio return or calculates the inverse
+## of a matrix before prepared with makecachematrix  
   cacheSolve <- function(x, ...) { 
          ## Return a matrix that is the inverse of 'x'
 		m<-x$getInver()
